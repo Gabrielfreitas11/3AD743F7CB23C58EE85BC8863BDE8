@@ -7,6 +7,7 @@ import Dashboard from "../pages/Dashboard/";
 import TicketResponsiveContainer from "../pages/TicketResponsiveContainer";
 import Signup from "../pages/Signup/";
 import Login from "../pages/Login/";
+import Marketplace from "../pages/Marketplace/";
 import Connections from "../pages/Connections/";
 import SettingsCustom from "../pages/SettingsCustom/";
 import Financeiro from "../pages/Financeiro/";
@@ -31,7 +32,6 @@ import CampaignReport from "../pages/CampaignReport";
 import Annoucements from "../pages/Annoucements";
 import Chat from "../pages/Chat";
 import Subscription from "../pages/Subscription/";
-
 
 const Routes = () => {
   const [showCampaigns, setShowCampaigns] = useState(false);
@@ -70,6 +70,12 @@ const Routes = () => {
                   exact
                   path="/quick-messages"
                   component={QuickMessages}
+                  isPrivate
+                />
+                <Route
+                  exact
+                  path="/marketplace"
+                  component={Marketplace}
                   isPrivate
                 />
                 <Route

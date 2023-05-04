@@ -309,6 +309,7 @@ const messages = {
           connections: "Conexões",
           tickets: "Atendimentos",
           quickMessages: "Respostas Rápidas",
+          marketplace: "Marketplace",
           contacts: "Contatos",
           queues: "Filas & Chatbot",
           tags: "Tags",
